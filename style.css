@@ -1,0 +1,158 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    width: 100%;
+    font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f0f2f5;
+}
+
+
+.main-facebook {
+    background-color: black;
+    width: 980px;
+    height: 536px;
+    color: white;
+    display: flex;
+    background-color: #f0f2f5;
+
+}
+
+.logo {
+    padding-top: 101.8px;
+
+}
+
+.logo img {
+
+    height: 106px;
+    width: 320px;
+}
+
+
+
+.fb-text-content h2 {
+    width: 500px;
+    height: 84px;
+    font-weight: 400;
+    padding-left: 28px;
+    color: black;
+}
+
+.fb-input {
+    width: 396px;
+    height: 496px;
+    background-color: red;
+    margin-left: 76px;
+    background-color: #f0f2f5;
+}
+
+.forms {
+    width: 396px;
+    height: 350.417px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 16px;
+    /* justify-content: space-around; */
+    margin-top: 42px;
+    padding-left: 13px;
+    padding-right: 13px;
+    /* border: 2px solid white; */
+    background-color: white;
+    border-radius: 6px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .1),
+        0 8px 16px rgba(0, 0, 0, .1);
+
+}
+
+.username {
+    margin-top: 16px;
+}
+
+input {
+    width: 100%;
+    height: 46px;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+    font-size: 17px;
+    padding-left: 14px;
+    font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+    border: .87px solid #dddfe2;
+    ;
+}
+
+.fb-login button {
+    width: 100%;
+    font-size: 17px;
+    height: 46px;
+    font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+    background-color: #0866ff;
+    color: white;
+    font-weight: 700;
+    border-radius: 6px;
+    border: none;
+    font-size: 20px;
+}
+
+.forgot-txt {
+    font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+    text-align: center;
+    height: 46px;
+    /* margin-bottom: 30px; */
+    border-bottom: .9px solid #dddfe2;
+
+}
+
+.forgot-txt a {
+    text-decoration: none;
+}
+
+.create-new-acc-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.create-new-acc-btn button {
+    height: 48px;
+    width: 59%;
+    background-color: #42b72a;
+    font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+    border: none;
+    font-size: 18px;
+    border-radius: 6px;
+    padding: 9px 9px;
+    color: white;
+    font-weight: 700;
+
+}
+
+.txt-in-form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.txt-container {
+    font-size: 14px;
+    padding-top: 20px;
+    color: black;
+}
+
+.txt-container span {
+    font-weight: bolder;
+}
+
+.txt-container span:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
